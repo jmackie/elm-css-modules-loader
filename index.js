@@ -18,7 +18,7 @@ const loader = function(source, inputSourceMap) {
   ].join('$');
 
   const transformerOptions = {
-    taggerName: taggerName,
+    taggerName: '$' + taggerName,
     localPath: config.localPath,
   };
 
